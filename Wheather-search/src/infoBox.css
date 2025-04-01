@@ -1,0 +1,42 @@
+.InfoBox {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.InfoBox h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.cardcontainer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cardcontainer .MuiCard-root {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.cardcontainer .MuiCard-root:hover {
+    transform: translateY(-5px);
+}
+
+.cardcontainer .MuiCardMedia-root {
+    height: 140px;
+    object-fit: cover;
+}
+
+.cardcontainer .MuiTypography-h5 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.cardcontainer .MuiTypography-body2 {
+    font-size: 16px;
+    color: #555;
+}
